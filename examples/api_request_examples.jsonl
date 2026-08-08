@@ -1,0 +1,3 @@
+{"protocolVersion": "1.0", "turnIndex": 1, "stage": "information_gathering", "activeItem": "unknown", "rawAsrText": "tell me about the first one", "recentTurns": []}
+{"protocolVersion": "1.0", "turnIndex": 4, "stage": "information_gathering", "activeItem": "first_top", "rawAsrText": "what color are the bottoms on the short", "recentTurns": [{"turnIndex": 3, "participantText": "tell me about the first one", "correctedParticipantText": "Tell me about the first one.", "routeCode": "G01_SHIRT_OVERVIEW"}]}
+{"protocolVersion": "1.0", "turnIndex": 10, "stage": "final_recommendation", "activeItem": "both", "rawAsrText": "I think you should get the hoodie", "recentTurns": []}
