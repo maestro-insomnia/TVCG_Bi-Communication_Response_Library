@@ -28,7 +28,7 @@ This repository includes:
 * routing examples and test cases;
 * Unity C# data structures and response-resolution examples;
 * an optional Python/FastAPI routing example;
-* the LaTeX source corresponding to the supplementary response-library documentation.
+* documentation describing the scenario, participant instructions, system architecture, response-selection rules, and API protocol.
 
 The fixed opening message is stored separately and is not selectable by the LLM router.
 
@@ -57,15 +57,15 @@ audio/audio_manifest.example.csv
 The communication pipeline is conceptually:
 
 ```text
-Participant Speech
-        |
-        v
-       ASR
-        |
-        v
-   Raw ASR Text
-        |
-        v
+      Participant Speech
+              |
+              v
+             ASR
+              |
+              v
+         Raw ASR Text
+              |
+              v
 +----------------------------+
 | LLM Semantic Router        |
 |                            |
@@ -152,12 +152,9 @@ TVCG_BC_Response_Library/
 |   ├── ConversationState.cs
 |   └── ResponseLibraryResolver.cs
 |
-├── audio/
-|   ├── README.md
-|   └── audio_manifest.example.csv
-|
-└── supplementary/
-    └── bc_response_library.tex
+└── audio/
+    ├── README.md
+    └── audio_manifest.example.csv
 ```
 
 ## Fixed Opening Message
@@ -599,7 +596,7 @@ Unity
   +-- resolve local response
 ```
 
-This is the simplest architecture when API credentials and deployment conditions can be managed safely.
+This is the simplest architecture when API credentials and deployment conditions can be managed appropriately.
 
 ### Option 2: Backend Routing Layer
 
@@ -797,12 +794,12 @@ These instructions are part of the experimental setup and should be considered w
 
 ## Adapting the Library
 
-Researchers may adapt this repository for other controlled conversational-agent studies by replacing:
+Researchers may adapt this repository for other controlled conversational studies by replacing:
 
 * the scenario;
 * predefined response texts;
 * route catalog;
-* prerecorded speech;
+* locally prepared speech recordings;
 * action mappings;
 * routing prompt.
 
@@ -813,7 +810,7 @@ natural participant input
 -> ASR
 -> contextual semantic routing
 -> predefined response code
--> controlled character response
+-> controlled virtual-character response
 ```
 
 For controlled experiments, keeping semantic interpretation separate from response generation can help maintain consistency in the information provided across participants.
