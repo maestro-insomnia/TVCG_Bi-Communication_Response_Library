@@ -1,0 +1,55 @@
+{
+  "schema_version": "1.0.0",
+  "category": "control",
+  "response_count": 6,
+  "responses": [
+    {
+      "response_code": "BC_CTL01_ONE_QUESTION",
+      "category": "control",
+      "action_code": "ACT_CLARIFY",
+      "text": "Could you ask me one question at a time?",
+      "use": "The participant asks two or more separate questions in the same turn.",
+      "audio_file": "audio/control/BC_CTL01_ONE_QUESTION.wav"
+    },
+    {
+      "response_code": "BC_CTL02_CLARIFY_ITEM",
+      "category": "control",
+      "action_code": "ACT_CLARIFY",
+      "text": "Do you mean the first top or the second one?",
+      "use": "The system can tell what information the participant is asking for, but cannot tell whether the question is about the first top or the second top.",
+      "audio_file": "audio/control/BC_CTL02_CLARIFY_ITEM.wav"
+    },
+    {
+      "response_code": "BC_CTL03_CLARIFY_DETAIL",
+      "category": "control",
+      "action_code": "ACT_CLARIFY",
+      "text": "What would you like to know about it?",
+      "use": "The system can tell which top the participant means, but cannot tell what information the participant wants.",
+      "audio_file": "audio/control/BC_CTL03_CLARIFY_DETAIL.wav"
+    },
+    {
+      "response_code": "BC_CTL04_ASR_RETRY",
+      "category": "control",
+      "action_code": "ACT_CLARIFY",
+      "text": "Sorry, I didn't quite catch that. What did you say?",
+      "use": "The ASR text is too incomplete or unclear for the system to understand it well enough.",
+      "audio_file": "audio/control/BC_CTL04_ASR_RETRY.wav"
+    },
+    {
+      "response_code": "BC_CTL05_OUT_OF_SCOPE",
+      "category": "control",
+      "action_code": "ACT_CLARIFY",
+      "text": "Could we stay focused on choosing between these two tops?",
+      "use": "The participant's input is clear but has nothing to do with the current clothing-choice topic. This response asks the participant to return to discussing the two tops.",
+      "audio_file": "audio/control/BC_CTL05_OUT_OF_SCOPE.wav"
+    },
+    {
+      "response_code": "BC_CTL06_FINAL_CHOICE",
+      "category": "control",
+      "action_code": "ACT_CLARIFY",
+      "text": "If I can only choose one, which one do you think I should get?",
+      "use": "At the final recommendation stage, the participant does not clearly recommend one of the two tops.",
+      "audio_file": "audio/control/BC_CTL06_FINAL_CHOICE.wav"
+    }
+  ]
+}

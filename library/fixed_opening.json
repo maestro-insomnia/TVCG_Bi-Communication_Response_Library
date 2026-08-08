@@ -1,0 +1,8 @@
+{
+  "schema_version": "1.0.0",
+  "code": "BC_OPENING",
+  "type": "fixed_opening",
+  "selectable_by_api": false,
+  "text": "Hey, my friend, I really need your help. I have found two shirts that I absolutely love, but I am completely stuck on which one to get.",
+  "audio_file": "audio/opening/BC_OPENING.wav"
+}

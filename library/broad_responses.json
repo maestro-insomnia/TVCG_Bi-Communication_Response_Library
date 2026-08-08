@@ -1,0 +1,188 @@
+{
+  "schema_version": "1.0.0",
+  "category": "broad",
+  "group_count": 9,
+  "response_count": 18,
+  "groups": [
+    {
+      "group_code": "G01_SHIRT_OVERVIEW",
+      "group_number": 1,
+      "name": "First Top—Overall Description",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "General description of the first top, including its physical appearance, material, and fit.",
+      "preferred": {
+        "response_code": "BC_BRD01_PREFERRED",
+        "action_code": "ACT_PRESENT_FIRST",
+        "text": "Okay, so the first one is a light blue button-up shirt. It's made of really soft cotton that's great for warmer weather but it has enough weight to avoid feeling too thin. The blue is a lovely shade—similar to sky blue, not too bright—and it has fine white stripes that run vertically, adding a touch of texture. The buttons are white with a pearl-like finish, giving it a more refined look. It has a collar that's not too stiff, making it comfortable but still neat. The cut is fitted, but not too tight—just enough to create a good shape.",
+        "audio_file": "audio/broad/BC_BRD01_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD01_ALTERNATIVE",
+        "action_code": "ACT_PRESENT_FIRST",
+        "text": "The first one is a light blue button-up shirt. It's made of soft cotton, so it feels comfortable and works well in warmer weather, but it doesn't feel too thin. The color is close to sky blue, and there are thin white stripes going straight down the shirt. It has white buttons with a pearl-like look and a collar that isn't too stiff. The fit is shaped but not tight, so it looks neat and comfortable.",
+        "audio_file": "audio/broad/BC_BRD01_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G02_SHIRT_USE",
+      "group_number": 2,
+      "name": "First Top—Wearing and Use",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad questions about how, where, when, or with what clothes the first top could be worn.",
+      "preferred": {
+        "response_code": "BC_BRD02_PREFERRED",
+        "action_code": "ACT_PRESENT_FIRST",
+        "text": "I feel like it's the kind of shirt I could wear for many occasions. I could easily wear it to work with dress pants or peg slacks, but it's also casual enough to pair with jeans and sneakers for a more relaxed look. The color is great because it's light and matches well with almost anything—dark jeans or even white pants in summer. It's also useful for different seasons. I could wear it under a sweater or blazer in winter, but it's light enough to wear alone in spring or fall.",
+        "audio_file": "audio/broad/BC_BRD02_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD02_ALTERNATIVE",
+        "action_code": "ACT_PRESENT_FIRST",
+        "text": "I could wear the shirt in a lot of different situations. For work, I could match it with dress pants or peg slacks, and for a more casual look, I could wear it with jeans and sneakers. The light blue color also goes well with things like dark jeans or white pants. I could put it under a sweater or blazer when it's cold, or wear it by itself in spring or fall, so it would work across different seasons.",
+        "audio_file": "audio/broad/BC_BRD02_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G03_HOODIE_OVERVIEW",
+      "group_number": 3,
+      "name": "Second Top—Overall Description",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "General description of the second top, including its physical appearance, material, lining, and fit.",
+      "preferred": {
+        "response_code": "BC_BRD03_PREFERRED",
+        "action_code": "ACT_PRESENT_SECOND",
+        "text": "The second one is completely different—it's a hoodie, but not an ordinary one. It's a deep forest green color, which I like because it's not too bright but still feels special. The material is a mix of cotton and fleece, so it's very soft and a little flexible, making it comfortable but not too thick. The inside has a soft and thick lining that feels amazing—like a warm blanket I would want on a cold day. It's a bit bigger than normal, giving it a relaxed, comfortable fit, but it doesn't look too loose. The sleeves are a little longer, which I like because it makes it feel even warmer, and there's a small logo on the chest—it's simple and not too noticeable.",
+        "audio_file": "audio/broad/BC_BRD03_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD03_ALTERNATIVE",
+        "action_code": "ACT_PRESENT_SECOND",
+        "text": "The other one is a deep forest green hoodie. The color isn't bright, but it still stands out in a nice way. It's made from cotton and fleece, so it feels very soft and a little flexible without being too thick. The inside is thick and soft, almost like a warm blanket. It has an oversized, relaxed fit, but it still looks flattering rather than baggy. The sleeves are a little longer, and there's a small, simple logo on the chest.",
+        "audio_file": "audio/broad/BC_BRD03_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G04_HOODIE_USE",
+      "group_number": 4,
+      "name": "Second Top—Wearing, Comfort, and Clothes Already Owned",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad questions about wearing the hoodie, comfort, and how it relates to clothes already owned.",
+      "preferred": {
+        "response_code": "BC_BRD04_PREFERRED",
+        "action_code": "ACT_PRESENT_SECOND",
+        "text": "It's the kind of hoodie I'd want to live in during the colder months. I can picture myself wearing it when I'm lounging around at home, but it's also stylish enough that I could wear it out with jeans or casual pants and still look put together. It's casual, but the fit and the quality of the material make it feel a little more elevated than your typical hoodie. The color is really what sets it apart, though. I don't have anything like it—most of my hoodies are grey or black, so this green feels fresh but still neutral enough to go with a lot of things. And I could easily see myself wearing it on colder days when I just want to be comfortable, but I don't want to look like I just rolled out of bed, you know?",
+        "audio_file": "audio/broad/BC_BRD04_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD04_ALTERNATIVE",
+        "action_code": "ACT_PRESENT_SECOND",
+        "text": "I'd probably wear this hoodie a lot when the weather is cold. It would be great for relaxing at home, but I could also wear it outside with jeans or casual pants and still look nice. It's casual, but the fit and the material make it feel nicer than a normal hoodie. I also really like the green because most of the hoodies I already own are grey or black. This one feels different, but the color is still easy to match with other clothes.",
+        "audio_file": "audio/broad/BC_BRD04_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G05_MAIN_TRADEOFF",
+      "group_number": 5,
+      "name": "Main Reason It Is Hard to Choose",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad questions about the main reasons the character finds the choice difficult.",
+      "preferred": {
+        "response_code": "BC_BRD05_PREFERRED",
+        "action_code": "ACT_THINK",
+        "text": "That's the thing—I'm so stuck! The blue shirt just seems so practical. I feel like I'd wear it all the time because it's so easy to style. It's one of those pieces you can put on and look polished without much effort. Plus, it's timeless, so I wouldn't have to worry about it ever looking out of date. But then there's the hoodie, and I can't get over how comfortable it is. It's like the ultimate lazy day piece that's also stylish enough to wear outside. I can totally picture myself in it on weekends or even during the week for tasks or working from home.",
+        "audio_file": "audio/broad/BC_BRD05_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD05_ALTERNATIVE",
+        "action_code": "ACT_THINK",
+        "text": "That's why it's hard for me to choose. The shirt is really practical, easy to match, and it makes me look put together without much effort. It also has a classic style that won't really go out of date. But the hoodie is so comfortable, and I can see myself wearing it all the time on relaxed days, weekends, or when I'm working from home. They both have advantages, just for very different reasons.",
+        "audio_file": "audio/broad/BC_BRD05_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G06_WARDROBE_COMPARISON",
+      "group_number": 6,
+      "name": "Comparison with Clothes Already Owned and Clothing Needs",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad comparison with clothes already owned and current wardrobe needs.",
+      "preferred": {
+        "response_code": "BC_BRD06_PREFERRED",
+        "action_code": "ACT_COMPARE",
+        "text": "The fit of the hoodie is perfect—oversized but still flattering—and it feels unique compared to what I already have. The hoodie is definitely more casual, though, and I already have some casual pieces, just nothing as nice as this. But then I think about the blue shirt. It's so versatile and would be great for work or dressier occasions. I've been trying to add more pieces like that to my wardrobe—classic, neutral, and easy to style. While I already own a few button ups, none are quite like this one in color or style.",
+        "audio_file": "audio/broad/BC_BRD06_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD06_ALTERNATIVE",
+        "action_code": "ACT_COMPARE",
+        "text": "The hoodie feels different from my other casual clothes because the oversized fit still looks flattering, and I don't really own anything quite like it. I do already have casual clothes, though. The shirt would help me in another way because I've been trying to get more classic and simple pieces that are easy to wear for work or nicer occasions. I already have a few button-up shirts, but none of them have this same color and style.",
+        "audio_file": "audio/broad/BC_BRD06_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G07_EXPECTED_USAGE",
+      "group_number": 7,
+      "name": "How Often Each Top May Be Worn",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad questions about how often, when, or in which seasons each top may be worn.",
+      "preferred": {
+        "response_code": "BC_BRD07_PREFERRED",
+        "action_code": "ACT_COMPARE",
+        "text": "That's the thing—I think I'd wear both a lot, but for different reasons. The blue shirt would definitely get a lot of use for work or more formal situations, but the hoodie would be something I'd reach for on days when I just want to feel comfortable. And with the weather getting colder, I feel like I'd end up wearing the hoodie more often in the near future. But the blue shirt is something I could wear year-round, and it's one of those pieces that could transition from season to season really easily. It's just such a good basic to have in my wardrobe.",
+        "audio_file": "audio/broad/BC_BRD07_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD07_ALTERNATIVE",
+        "action_code": "ACT_COMPARE",
+        "text": "I think I would use both of them a lot, just at different times. The shirt would be useful for work and more formal situations, while I'd choose the hoodie when I wanted to be comfortable. Since the weather is getting colder, I'd probably wear the hoodie more in the next few months. The shirt, though, would work all year and would be useful in more seasons.",
+        "audio_file": "audio/broad/BC_BRD07_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G08_REPLACEABILITY",
+      "group_number": 8,
+      "name": "How Easy Each Top Is to Replace and Possible Regret",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad questions about replaceability, uniqueness, and possible regret.",
+      "preferred": {
+        "response_code": "BC_BRD08_PREFERRED",
+        "action_code": "ACT_THINK",
+        "text": "The blue shirt is definitely more of a staple piece, so I feel like I could find something similar if I don't buy it now. I mean, it's not easy to find the perfect button-up, but it's not impossible either. But the hoodie feels a bit more unique, especially with that color and the fit. I haven't seen anything exactly like it in other stores, and I'm kind of obsessed with how soft it is. I feel like I'd regret not buying it if I leave it behind. But then I think about how the blue shirt is such a good investment piece. I'm so stuck!",
+        "audio_file": "audio/broad/BC_BRD08_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD08_ALTERNATIVE",
+        "action_code": "ACT_THINK",
+        "text": "I think I could probably find another good blue button-up later. Finding the perfect one can take some time, but shirts like that aren't impossible to replace. The hoodie feels harder to find again because of the green color, the fit, and how soft it is. I haven't seen another one exactly like it, so I think I might regret leaving it behind. At the same time, the shirt still feels like a really useful long-term piece.",
+        "audio_file": "audio/broad/BC_BRD08_ALTERNATIVE.wav"
+      }
+    },
+    {
+      "group_code": "G09_CURRENT_PREFERENCE",
+      "group_number": 9,
+      "name": "Price, Long-Term Value, and Current Preference",
+      "category": "broad",
+      "selection_rule": "odd_preferred_even_alternative",
+      "use": "Broad questions combining price, long-term value, current preference, and the one-item constraint.",
+      "preferred": {
+        "response_code": "BC_BRD09_PREFERRED",
+        "action_code": "ACT_PREFERENCE",
+        "text": "I like the hoodie! But the blue shirt is so classic. They're both around the same price, and I didn't really plan on buying two tops. I feel like I should pick one, but I just can't decide which one. The hoodie is definitely something I'd use a lot in the fall and winter, and it's so cozy I can already picture myself wearing it all the time. But the blue shirt feels like a long-term investment—something that will last for years and always be in style. I think I'm leaning more toward the hoodie, though. It just feels special, you know?",
+        "audio_file": "audio/broad/BC_BRD09_PREFERRED.wav"
+      },
+      "alternative": {
+        "response_code": "BC_BRD09_ALTERNATIVE",
+        "action_code": "ACT_PREFERENCE",
+        "text": "I do like the hoodie more right now, but the shirt is such a classic choice. They cost about the same, and I only planned to buy one of them. The hoodie would be really useful in fall and winter because it's so warm and comfortable. The shirt feels more like something I could keep wearing for years because its style won't really go out of fashion. Even so, I'm still leaning toward the hoodie because it feels more special to me.",
+        "audio_file": "audio/broad/BC_BRD09_ALTERNATIVE.wav"
+      }
+    }
+  ]
+}
