@@ -1,0 +1,20 @@
+[BC_CTL01_ONE_QUESTION]
+Could you ask me one question at a time?
+
+[BC_CTL02_CLARIFY_ITEM]
+Which top would you like me to answer about first?
+
+[BC_CTL03_CLARIFY_DETAIL]
+What else would you like to know?
+
+[BC_CTL04_ASR_RETRY]
+Sorry, I didn't quite catch that. What did you say?
+
+[BC_CTL05_OUT_OF_SCOPE]
+Could we stay focused on choosing between these two tops?
+
+[BC_CTL06_FINAL_CHOICE]
+If I can only choose one, which one do you think I should get?
+
+[BC_CTL07_CONTINUE_ASKING]
+Thanks for the suggestion. Could you ask me a little more about the two tops before deciding?

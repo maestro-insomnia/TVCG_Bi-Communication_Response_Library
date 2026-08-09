@@ -1,0 +1,35 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "TVCG Bi-Communication Response Library v6.3",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "version": {
+      "type": "string",
+      "const": "6.3"
+    },
+    "source": {
+      "type": "string"
+    },
+    "fixedOpening": {
+      "type": "string"
+    },
+    "broadGroups": {
+      "type": "object",
+      "minProperties": 9,
+      "maxProperties": 9
+    },
+    "responses": {
+      "type": "object",
+      "minProperties": 75,
+      "maxProperties": 75
+    }
+  },
+  "required": [
+    "version",
+    "source",
+    "fixedOpening",
+    "broadGroups",
+    "responses"
+  ]
+}

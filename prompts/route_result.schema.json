@@ -1,0 +1,176 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "BC Route Result v6.3",
+  "type": "object",
+  "additionalProperties": false,
+  "properties": {
+    "correctedInputText": {
+      "type": "string",
+      "description": "Full participant message after minimum necessary lexical correction and, for ASR, reconstruction of likely clause boundaries/punctuation. Preserve comments/opinions and do not replace them with library facts."
+    },
+    "correctionStatus": {
+      "type": "string",
+      "enum": [
+        "unchanged",
+        "corrected",
+        "uncertain"
+      ]
+    },
+    "punctuationStatus": {
+      "type": "string",
+      "enum": [
+        "unchanged",
+        "restored",
+        "repaired",
+        "uncertain"
+      ],
+      "description": "ASR punctuation/segmentation diagnostic. restored = missing boundaries/punctuation inserted; repaired = supplied punctuation/segmentation was misleading and corrected. This is independent of lexical correctionStatus."
+    },
+    "utteranceType": {
+      "type": "string",
+      "enum": [
+        "question",
+        "comment_plus_question",
+        "recommendation_plus_question",
+        "comment_only",
+        "recommendation",
+        "clarification_answer",
+        "unclear"
+      ],
+      "description": "Conversational form of the participant turn. Explicit recommendation/advice with no information request is recommendation even when accompanied by commentary or reasons; recommendation_plus_question is reserved for advice plus an information request."
+    },
+    "informationRequestCount": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 2,
+      "description": "0=no information-seeking request; 1=one request; 2=two or more independent information requests."
+    },
+    "routingBasisText": {
+      "type": "string",
+      "description": "Concise normalized actionable request/recommendation used for routing, excluding non-actionable comments. For comment-only turns, say comment only."
+    },
+    "semanticTarget": {
+      "type": "string",
+      "enum": [
+        "first_top",
+        "second_top",
+        "both",
+        "decision",
+        "unclear"
+      ]
+    },
+    "intentClass": {
+      "type": "string",
+      "enum": [
+        "overview",
+        "likes_and_wearing",
+        "wardrobe_and_use",
+        "replaceability_and_value",
+        "explicit_personal_preference",
+        "specific_detail",
+        "comparison",
+        "recommendation",
+        "conversational_comment",
+        "control"
+      ]
+    },
+    "routeCategory": {
+      "type": "string",
+      "enum": [
+        "broad",
+        "specific",
+        "decision",
+        "control"
+      ]
+    },
+    "routeCode": {
+      "type": "string",
+      "enum": [
+        "G01_SHIRT_OVERVIEW",
+        "G02_SHIRT_LIKES",
+        "G05_HOODIE_OVERVIEW",
+        "G06_HOODIE_LIKES",
+        "G03_SHIRT_WARDROBE",
+        "G07_HOODIE_WARDROBE",
+        "G04_SHIRT_REPLACEABILITY",
+        "G08_HOODIE_REPLACEABILITY",
+        "G09_CURRENT_PREFERENCE",
+        "BC_SPC01_SHIRT_TYPE",
+        "BC_SPC02_SHIRT_COLOR",
+        "BC_SPC03_SHIRT_MATERIAL",
+        "BC_SPC04_SHIRT_MATERIAL_FEEL",
+        "BC_SPC05_SHIRT_PATTERN",
+        "BC_SPC06_SHIRT_BUTTONS",
+        "BC_SPC07_SHIRT_COLLAR",
+        "BC_SPC08_SHIRT_FIT",
+        "BC_SPC09_SHIRT_WORK_USE",
+        "BC_SPC10_SHIRT_CASUAL_USE",
+        "BC_SPC11_SHIRT_COLOR_MATCHING",
+        "BC_SPC12_SHIRT_SEASON_USE",
+        "BC_SPC13_SHIRT_LAYERING",
+        "BC_SPC14_SHIRT_PRACTICALITY",
+        "BC_SPC15_SHIRT_FORMAL_CASUAL",
+        "BC_SPC16_SHIRT_POLISHED",
+        "BC_SPC17_SHIRT_TIMELESS",
+        "BC_SPC18_SHIRT_EXISTING",
+        "BC_SPC19_SHIRT_WARDROBE_GOAL",
+        "BC_SPC20_SHIRT_REPLACEABILITY",
+        "BC_SPC21_SHIRT_INVESTMENT",
+        "BC_SPC22_HOODIE_TYPE",
+        "BC_SPC23_HOODIE_COLOR",
+        "BC_SPC24_HOODIE_MATERIAL",
+        "BC_SPC25_HOODIE_MATERIAL_FEEL",
+        "BC_SPC26_HOODIE_LINING",
+        "BC_SPC27_HOODIE_FIT",
+        "BC_SPC28_HOODIE_SLEEVES",
+        "BC_SPC29_HOODIE_LOGO",
+        "BC_SPC30_HOODIE_HOME_USE",
+        "BC_SPC31_HOODIE_OUTDOOR_USE",
+        "BC_SPC32_HOODIE_COLD_WEATHER",
+        "BC_SPC33_HOODIE_COMFORT",
+        "BC_SPC34_HOODIE_ELEVATED_STYLE",
+        "BC_SPC35_HOODIE_EXISTING_COLORS",
+        "BC_SPC36_HOODIE_UNIQUENESS",
+        "BC_SPC37_HOODIE_REPLACEABILITY",
+        "BC_SPC38_HOODIE_REGRET",
+        "BC_SPC39_SAME_PRICE",
+        "BC_SPC40_ONLY_ONE",
+        "BC_SPC41_WHY_UNDECIDED",
+        "BC_SPC42_WHICH_MORE_FORMAL",
+        "BC_SPC43_WHICH_MORE_COMFORTABLE",
+        "BC_SPC44_WHICH_MORE_VERSATILE",
+        "BC_SPC45_WHICH_WEAR_MORE",
+        "BC_SPC46_WHICH_HARDER_REPLACE",
+        "BC_SPC47_CURRENT_PREFERENCE",
+        "BC_SPC48_REGRET_COMPARISON",
+        "BC_DEC01_HOODIE",
+        "BC_DEC02_SHIRT",
+        "BC_CTL01_ONE_QUESTION",
+        "BC_CTL02_CLARIFY_ITEM",
+        "BC_CTL03_CLARIFY_DETAIL",
+        "BC_CTL04_ASR_RETRY",
+        "BC_CTL05_OUT_OF_SCOPE",
+        "BC_CTL06_FINAL_CHOICE",
+        "BC_CTL07_CONTINUE_ASKING"
+      ]
+    },
+    "confidence": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1
+    }
+  },
+  "required": [
+    "correctedInputText",
+    "correctionStatus",
+    "punctuationStatus",
+    "utteranceType",
+    "informationRequestCount",
+    "routingBasisText",
+    "semanticTarget",
+    "intentClass",
+    "routeCategory",
+    "routeCode",
+    "confidence"
+  ]
+}

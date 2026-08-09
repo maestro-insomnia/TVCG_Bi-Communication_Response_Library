@@ -1,0 +1,143 @@
+[BC_SPC01_SHIRT_TYPE]
+The first one is a light blue button-up shirt.
+
+[BC_SPC02_SHIRT_COLOR]
+It's a light blue, almost like sky blue, and it isn't too bright.
+
+[BC_SPC03_SHIRT_MATERIAL]
+It's made of soft cotton.
+
+[BC_SPC04_SHIRT_MATERIAL_FEEL]
+The cotton feels really soft, and it has enough weight that it doesn't feel too thin.
+
+[BC_SPC05_SHIRT_PATTERN]
+It has fine white stripes that run vertically.
+
+[BC_SPC06_SHIRT_BUTTONS]
+The buttons are white with a pearl-like finish.
+
+[BC_SPC07_SHIRT_COLLAR]
+The collar isn't too stiff, so it feels comfortable but still looks neat.
+
+[BC_SPC08_SHIRT_FIT]
+It's fitted, but it isn't too tight.
+
+[BC_SPC09_SHIRT_WORK_USE]
+I could wear it to work with dress pants or peg slacks.
+
+[BC_SPC10_SHIRT_CASUAL_USE]
+I could wear it with jeans and sneakers for a more casual look.
+
+[BC_SPC11_SHIRT_COLOR_MATCHING]
+The light blue color goes well with a lot of things, including dark jeans or white pants.
+
+[BC_SPC12_SHIRT_SEASON_USE]
+I could wear it in different seasons, so it's useful throughout the year.
+
+[BC_SPC13_SHIRT_LAYERING]
+I could wear it under a sweater or blazer in winter, or wear it by itself in spring or fall.
+
+[BC_SPC14_SHIRT_PRACTICALITY]
+It feels really practical because it's easy to style and works for many different occasions.
+
+[BC_SPC15_SHIRT_FORMAL_CASUAL]
+I could wear it for both work or dressier occasions and more casual situations.
+
+[BC_SPC16_SHIRT_POLISHED]
+It's the kind of shirt that can make me look neat and well dressed without much effort.
+
+[BC_SPC18_SHIRT_EXISTING]
+I already have a few button-up shirts, but none are quite like this one in color or style.
+
+[BC_SPC19_SHIRT_WARDROBE_GOAL]
+I've been trying to add more classic, simple, and easy-to-match clothes.
+
+[BC_SPC17_SHIRT_TIMELESS]
+It has a classic style, so I don't think it would go out of date.
+
+[BC_SPC20_SHIRT_REPLACEABILITY]
+I think I could find another similar button-up later, even though finding the perfect one isn't always easy.
+
+[BC_SPC21_SHIRT_INVESTMENT]
+I see it as a long-term investment because it's classic and should stay in style for years.
+
+[BC_SPC22_HOODIE_TYPE]
+The second one is a hoodie.
+
+[BC_SPC23_HOODIE_COLOR]
+It's a deep forest green.
+
+[BC_SPC24_HOODIE_MATERIAL]
+It's made from a mix of cotton and fleece.
+
+[BC_SPC25_HOODIE_MATERIAL_FEEL]
+The material is very soft and a little flexible, and it isn't too thick.
+
+[BC_SPC26_HOODIE_LINING]
+The inside has a thick, soft lining that feels like a warm blanket.
+
+[BC_SPC27_HOODIE_FIT]
+It has a larger, relaxed fit, but it still looks good and doesn't look too loose.
+
+[BC_SPC28_HOODIE_SLEEVES]
+The sleeves are a little longer than normal.
+
+[BC_SPC29_HOODIE_LOGO]
+There's a small, simple logo on the chest, and it isn't very noticeable.
+
+[BC_SPC30_HOODIE_HOME_USE]
+I could wear it when I'm relaxing at home or working from home.
+
+[BC_SPC31_HOODIE_OUTDOOR_USE]
+I could wear it outside with jeans or casual pants and still look put together.
+
+[BC_SPC32_HOODIE_COLD_WEATHER]
+I'd probably wear it a lot during fall and winter or on other cold days.
+
+[BC_SPC33_HOODIE_COMFORT]
+It's really soft, warm, and comfortable, which is one of the things I like most about it.
+
+[BC_SPC34_HOODIE_ELEVATED_STYLE]
+It's casual, but the fit and material make it feel a little nicer than a normal hoodie.
+
+[BC_SPC35_HOODIE_EXISTING_COLORS]
+Most of the hoodies I already own are grey or black.
+
+[BC_SPC36_HOODIE_UNIQUENESS]
+It feels more unique than my other casual clothes because of the green color and the larger, relaxed fit that still looks good.
+
+[BC_SPC37_HOODIE_REPLACEABILITY]
+I haven't seen another hoodie with exactly the same color and fit, so it feels harder to replace.
+
+[BC_SPC38_HOODIE_REGRET]
+I think I'd regret leaving the hoodie behind because it feels like a rare find.
+
+[BC_SPC39_SAME_PRICE]
+They're both around the same price.
+
+[BC_SPC40_ONLY_ONE]
+I didn't plan on buying two tops, so I feel like I should choose just one.
+
+[BC_SPC41_WHY_UNDECIDED]
+The shirt is more practical and works in more situations, but the hoodie is more comfortable and feels more unique, so it's hard for me to choose.
+
+[BC_SPC42_WHICH_MORE_FORMAL]
+The shirt is better for work or dressier situations, while the hoodie is much more casual.
+
+[BC_SPC43_WHICH_MORE_COMFORTABLE]
+The hoodie is definitely more comfortable.
+
+[BC_SPC44_WHICH_MORE_VERSATILE]
+The shirt works in more situations because I could wear it for work, casual situations, and in different seasons.
+
+[BC_SPC45_WHICH_WEAR_MORE]
+I'd probably wear the hoodie more in the near future because the weather is getting colder, but I could use the shirt all year.
+
+[BC_SPC46_WHICH_HARDER_REPLACE]
+The hoodie feels harder to replace because I haven't seen another one with the same color and fit.
+
+[BC_SPC47_CURRENT_PREFERENCE]
+I think I like the hoodie a little more right now because it feels more special.
+
+[BC_SPC48_REGRET_COMPARISON]
+I think I'd regret not getting the hoodie more than not getting the shirt.

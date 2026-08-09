@@ -1,0 +1,332 @@
+{
+  "G01_SHIRT_OVERVIEW": {
+    "category": "broad",
+    "target": "first_top",
+    "use": "Broad first-top question about what it looks like, including material, physical details, and fit."
+  },
+  "G02_SHIRT_LIKES": {
+    "category": "broad",
+    "target": "first_top",
+    "use": "Broad first-top question about what the character likes about it and how it could be worn."
+  },
+  "G03_SHIRT_WARDROBE": {
+    "category": "broad",
+    "target": "first_top",
+    "use": "Broad first-top question about clothes already owned, what need it fills, and likely use."
+  },
+  "G04_SHIRT_REPLACEABILITY": {
+    "category": "broad",
+    "target": "first_top",
+    "use": "Broad first-top request for an overall evaluation of how easy, hard, or difficult the item would be to replace or obtain an equivalent later; includes semantic paraphrases, not only the canonical instructed wording."
+  },
+  "G05_HOODIE_OVERVIEW": {
+    "category": "broad",
+    "target": "second_top",
+    "use": "Broad second-top question about what it looks like, including material, physical details, and fit."
+  },
+  "G06_HOODIE_LIKES": {
+    "category": "broad",
+    "target": "second_top",
+    "use": "Broad second-top question about what the character likes about it and how it could be worn."
+  },
+  "G07_HOODIE_WARDROBE": {
+    "category": "broad",
+    "target": "second_top",
+    "use": "Broad second-top question about clothes already owned, what need it fills, and likely use."
+  },
+  "G08_HOODIE_REPLACEABILITY": {
+    "category": "broad",
+    "target": "second_top",
+    "use": "Broad second-top request for an overall evaluation of how easy, hard, or difficult the item would be to replace or obtain an equivalent later; includes semantic paraphrases, not only the canonical instructed wording."
+  },
+  "G09_CURRENT_PREFERENCE": {
+    "category": "broad",
+    "target": "both",
+    "use": "Special broad disclosure only for an explicit overall request about what the character personally wants/leans toward or a statement that the choice should depend on the character’s own preference."
+  },
+  "BC_SPC01_SHIRT_TYPE": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "What the first top is / garment type."
+  },
+  "BC_SPC02_SHIRT_COLOR": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Color or shade of the first top."
+  },
+  "BC_SPC03_SHIRT_MATERIAL": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Material composition of the first top."
+  },
+  "BC_SPC04_SHIRT_MATERIAL_FEEL": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Feel, softness, weight, or thickness of the first top material."
+  },
+  "BC_SPC05_SHIRT_PATTERN": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Pattern or stripe orientation of the first top."
+  },
+  "BC_SPC06_SHIRT_BUTTONS": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Color or appearance of the first top buttons."
+  },
+  "BC_SPC07_SHIRT_COLLAR": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Collar characteristics of the first top."
+  },
+  "BC_SPC08_SHIRT_FIT": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Fit of the first top."
+  },
+  "BC_SPC09_SHIRT_WORK_USE": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "How the first top could be worn for work."
+  },
+  "BC_SPC10_SHIRT_CASUAL_USE": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "How the first top could be worn casually."
+  },
+  "BC_SPC11_SHIRT_COLOR_MATCHING": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "What colors or clothes the first top matches with."
+  },
+  "BC_SPC12_SHIRT_SEASON_USE": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Use of the first top across seasons / throughout the year."
+  },
+  "BC_SPC13_SHIRT_LAYERING": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "How the first top can be layered in colder seasons."
+  },
+  "BC_SPC14_SHIRT_PRACTICALITY": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Why the first top is practical or easy to style."
+  },
+  "BC_SPC15_SHIRT_FORMAL_CASUAL": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Whether the first top works for both dressier/work and casual situations."
+  },
+  "BC_SPC16_SHIRT_POLISHED": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Whether or why the first top can look neat or well dressed."
+  },
+  "BC_SPC17_SHIRT_TIMELESS": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Whether or why the first top has a classic style that stays in style."
+  },
+  "BC_SPC18_SHIRT_EXISTING": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Whether the character already owns similar button-up shirts."
+  },
+  "BC_SPC19_SHIRT_WARDROBE_GOAL": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "The character's clothing goal related to classic, simple, easy-to-match clothes."
+  },
+  "BC_SPC20_SHIRT_REPLACEABILITY": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Narrow factual availability/existence follow-up about whether another similar button-up could probably be found or bought later; not an overall evaluation of replacement difficulty."
+  },
+  "BC_SPC21_SHIRT_INVESTMENT": {
+    "category": "specific",
+    "target": "first_top",
+    "use": "Why the first top is considered a long-term investment."
+  },
+  "BC_SPC22_HOODIE_TYPE": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "What the second top is / garment type."
+  },
+  "BC_SPC23_HOODIE_COLOR": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Color of the second top."
+  },
+  "BC_SPC24_HOODIE_MATERIAL": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Material composition of the hoodie."
+  },
+  "BC_SPC25_HOODIE_MATERIAL_FEEL": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Feel, softness, flexibility, or general thickness of the hoodie material/fabric itself; use SPC26 instead when the referent is the inside/interior/lining."
+  },
+  "BC_SPC26_HOODIE_LINING": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "What the inside, interior, inner layer, or lining of the hoodie is like, including how that inside layer feels, how soft it is, or how thick it is."
+  },
+  "BC_SPC27_HOODIE_FIT": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Fit of the hoodie."
+  },
+  "BC_SPC28_HOODIE_SLEEVES": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Sleeve length of the hoodie."
+  },
+  "BC_SPC29_HOODIE_LOGO": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Size, appearance, noticeability, or location of the hoodie logo."
+  },
+  "BC_SPC30_HOODIE_HOME_USE": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "How the hoodie could be worn at home or while working from home."
+  },
+  "BC_SPC31_HOODIE_OUTDOOR_USE": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "How the hoodie could be worn outside / for casual outings."
+  },
+  "BC_SPC32_HOODIE_COLD_WEATHER": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Use of the hoodie in fall, winter, or cold weather."
+  },
+  "BC_SPC33_HOODIE_COMFORT": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "How comfortable, warm, or soft the hoodie is."
+  },
+  "BC_SPC34_HOODIE_ELEVATED_STYLE": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Why the hoodie feels or looks a little nicer than a basic hoodie."
+  },
+  "BC_SPC35_HOODIE_EXISTING_COLORS": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Colors of most hoodies the character already owns."
+  },
+  "BC_SPC36_HOODIE_UNIQUENESS": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Why the hoodie feels more unique than the character's other casual clothes."
+  },
+  "BC_SPC37_HOODIE_REPLACEABILITY": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Narrow factual availability/existence follow-up about whether the same or a similar hoodie has been/could be found, seen, or bought again; not an overall evaluation of replacement difficulty."
+  },
+  "BC_SPC38_HOODIE_REGRET": {
+    "category": "specific",
+    "target": "second_top",
+    "use": "Why the character might regret leaving the hoodie behind."
+  },
+  "BC_SPC39_SAME_PRICE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Whether the two tops are around the same price."
+  },
+  "BC_SPC40_ONLY_ONE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Why the character plans to choose only one top."
+  },
+  "BC_SPC41_WHY_UNDECIDED": {
+    "category": "specific",
+    "target": "both",
+    "use": "Concise reason the character is having difficulty choosing."
+  },
+  "BC_SPC42_WHICH_MORE_FORMAL": {
+    "category": "specific",
+    "target": "both",
+    "use": "Which top is better for work or dressier situations."
+  },
+  "BC_SPC43_WHICH_MORE_COMFORTABLE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Which top is more comfortable."
+  },
+  "BC_SPC44_WHICH_MORE_VERSATILE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Which top works in more situations / is more versatile."
+  },
+  "BC_SPC45_WHICH_WEAR_MORE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Which top the character expects to wear more, including near-term versus year-round use."
+  },
+  "BC_SPC46_WHICH_HARDER_REPLACE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Which top is harder to find again or replace."
+  },
+  "BC_SPC47_CURRENT_PREFERENCE": {
+    "category": "specific",
+    "target": "both",
+    "use": "Short direct answer about which top the character likes a little more right now."
+  },
+  "BC_SPC48_REGRET_COMPARISON": {
+    "category": "specific",
+    "target": "both",
+    "use": "Which top the character would regret not getting more."
+  },
+  "BC_DEC01_HOODIE": {
+    "category": "decision",
+    "target": "decision",
+    "use": "finalRecommendationEnabled=true and participant clearly recommends the hoodie with no unresolved information request."
+  },
+  "BC_DEC02_SHIRT": {
+    "category": "decision",
+    "target": "decision",
+    "use": "finalRecommendationEnabled=true and participant clearly recommends the shirt with no unresolved information request."
+  },
+  "BC_CTL01_ONE_QUESTION": {
+    "category": "control",
+    "target": "unclear",
+    "use": "Two or more independent questions / distinct information dimensions in one turn."
+  },
+  "BC_CTL02_CLARIFY_ITEM": {
+    "category": "control",
+    "target": "unclear",
+    "use": "Requested information is clear but item is unresolved, OR same item-specific detail is requested for both tops and would require two separate recordings."
+  },
+  "BC_CTL03_CLARIFY_DETAIL": {
+    "category": "control",
+    "target": "unclear",
+    "use": "The participant gives an in-scope comment or opinion without a new actionable information request, or the referenced item is clear but the requested information cannot be determined."
+  },
+  "BC_CTL04_ASR_RETRY": {
+    "category": "control",
+    "target": "unclear",
+    "use": "Input is too incomplete/corrupted to reconstruct reliably."
+  },
+  "BC_CTL05_OUT_OF_SCOPE": {
+    "category": "control",
+    "target": "both",
+    "use": "Understandable input is unrelated to choosing/discussing the two tops."
+  },
+  "BC_CTL06_FINAL_CHOICE": {
+    "category": "control",
+    "target": "decision",
+    "use": "finalRecommendationEnabled=true and the participant attempts a recommendation but does not clearly select exactly one top, including both/neither/ambiguous."
+  },
+  "BC_CTL07_CONTINUE_ASKING": {
+    "category": "control",
+    "target": "decision",
+    "use": "A clear recommendation is given before final recommendations are enabled and there is no unresolved information question in the same turn."
+  }
+}

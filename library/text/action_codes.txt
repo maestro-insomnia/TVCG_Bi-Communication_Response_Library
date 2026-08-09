@@ -1,0 +1,8 @@
+ACT_PRESENT_FIRST — Show or describe the first top.
+ACT_PRESENT_SECOND — Show or describe the second top.
+ACT_COMPARE — Compare the two options.
+ACT_THINK — Show that the character is thinking or unsure.
+ACT_PREFERENCE — Show the character's current preference.
+ACT_DECIDE — Show the final choice.
+ACT_NEUTRAL — Normal conversation behavior.
+ACT_CLARIFY — Ask the participant to make the question clearer.
