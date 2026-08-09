@@ -247,7 +247,6 @@ The Unity examples keep state and local response resolution outside the LLM. In 
 
 See `unity/README.md`.
 
-## Reuse
 
 ## Reuse
 
