@@ -1,8 +1,11 @@
 # TVCG Bi-Communication Response Library
 
-Reusable response-library and semantic-routing resources for the bi-directional communication scenario used in **“Virtual Character-Mediated Communication in VR: Effects of Appearance Fidelity and Speech Fidelity.”**
+This repository provides the predefined response library, semantic-routing prompt, structured route schemas, and implementation examples used to map participants' natural-language input to controlled virtual-character responses in the bi-directional communication scenario of the study:
 
-Repository: https://github.com/maestro-insomnia/TVCG_Bi-Communication_Response_Library
+> **Virtual Character-Mediated Communication in VR: Effects of Appearance Fidelity and Speech Fidelity**
+
+The resources are intended to support reproduction and reuse of the study's controlled conversational pipeline, in which participant speech is transcribed by ASR, semantically routed to a predefined response code, and resolved locally to a prerecorded virtual-character response and action.
+
 
 ## Purpose
 
