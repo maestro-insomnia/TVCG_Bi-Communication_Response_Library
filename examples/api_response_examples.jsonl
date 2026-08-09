@@ -1,3 +1,0 @@
-{"correctedAsrText": "Tell me about the first one.", "correctionStatus": "unchanged", "asrCorrectionConfidence": 0.99, "target": "first_top", "routeCategory": "broad", "routeCode": "G01_SHIRT_OVERVIEW", "intentConfidence": 0.99}
-{"correctedAsrText": "What color are the buttons on the shirt?", "correctionStatus": "corrected", "asrCorrectionConfidence": 0.95, "target": "first_top", "routeCategory": "specific", "routeCode": "BC_SPC06_SHIRT_BUTTONS", "intentConfidence": 0.98}
-{"correctedAsrText": "I think you should get the hoodie.", "correctionStatus": "unchanged", "asrCorrectionConfidence": 0.99, "target": "decision", "routeCategory": "decision", "routeCode": "BC_DEC01_HOODIE", "intentConfidence": 0.99}
