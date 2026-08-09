@@ -52,8 +52,6 @@ TVCG_Bi-Communication_Response_Library/
 ├── CITATION.cff
 ├── CHANGELOG.md
 ├── .gitignore
-├── validate_repository.py
-│
 ├── docs/
 │   ├── participant_instructions.md
 │   ├── scenario_description.md
@@ -85,7 +83,7 @@ TVCG_Bi-Communication_Response_Library/
 │   └── python_router/
 │       ├── README.md
 │       ├── app.py
-│       └── .env.example
+│       └── .env
 │
 ├── unity/
 │   ├── README.md
@@ -93,11 +91,6 @@ TVCG_Bi-Communication_Response_Library/
 │   ├── BcRouteResult.cs
 │   ├── ConversationState.cs
 │   └── ResponseLibraryResolver.cs
-│
-├── tests/
-│   ├── README.md
-│   ├── conversation_test_cases.json
-│   └── run_api_tests.py
 │
 └── audio/
     ├── README.md
@@ -233,13 +226,11 @@ Model selection is configurable. For experimental reproducibility, record the ex
 
 ## Optional Python Reference
 
-`examples/python_router/app.py` is a small standard-library command-line tester. It is intended to demonstrate the protocol and local response resolution; it is **not** a required server.
+`examples/python_router/app.py` is a small standard-library command-line reference implementation. It demonstrates the protocol and local response resolution; it is **not** a required server.
 
 ```bash
 cd examples/python_router
-cp .env.example .env
-# edit .env
-python app.py --self-test
+# edit .env and add your local API key
 python app.py --input-mode asr
 ```
 
@@ -256,16 +247,7 @@ The Unity examples keep state and local response resolution outside the LLM. In 
 
 See `unity/README.md`.
 
-## Testing
-
-Validate repository structure and route consistency without API calls:
-
-```bash
-python validate_repository.py
-python tests/run_api_tests.py --validate-only
-```
-
-The API test runner uses the finalized Compact v2 prompt and the frozen multi-turn test cases supplied with the final router package. Running live API tests incurs API usage.
+## Reuse
 
 ## Reuse
 
@@ -273,7 +255,9 @@ Researchers can reuse the protocol while replacing the scenario-specific library
 
 ## Citation
 
-Update `CITATION.cff` with the final bibliographic metadata and repository URL before public release. If you reuse this response library or routing protocol in academic work, cite the associated paper and repository.
+If you use this response library, routing prompt, or implementation resources in your research, please cite the associated paper:
+
+> *Yu Han, Hao Sha, Tongtai Cao, Xin Wang, Yu Miao, Yue Liu, Huyen Nguyen, and Christian Sandor, “Virtual Character-Mediated Communication in VR: Effects of Appearance Fidelity and Speech Fidelity.”*
 
 ## Licensing
 
