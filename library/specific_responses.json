@@ -1,0 +1,390 @@
+{
+  "protocolVersion": "6.3",
+  "responseCount": 48,
+  "responses": [
+    {
+      "responseCode": "BC_SPC01_SHIRT_TYPE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "The first one is a light blue button-up shirt.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC01_SHIRT_TYPE.wav"
+    },
+    {
+      "responseCode": "BC_SPC02_SHIRT_COLOR",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It's a light blue, almost like sky blue, and it isn't too bright.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC02_SHIRT_COLOR.wav"
+    },
+    {
+      "responseCode": "BC_SPC03_SHIRT_MATERIAL",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It's made of soft cotton.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC03_SHIRT_MATERIAL.wav"
+    },
+    {
+      "responseCode": "BC_SPC04_SHIRT_MATERIAL_FEEL",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "The cotton feels really soft, and it has enough weight that it doesn't feel too thin.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC04_SHIRT_MATERIAL_FEEL.wav"
+    },
+    {
+      "responseCode": "BC_SPC05_SHIRT_PATTERN",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It has fine white stripes that run vertically.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC05_SHIRT_PATTERN.wav"
+    },
+    {
+      "responseCode": "BC_SPC06_SHIRT_BUTTONS",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "The buttons are white with a pearl-like finish.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC06_SHIRT_BUTTONS.wav"
+    },
+    {
+      "responseCode": "BC_SPC07_SHIRT_COLLAR",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "The collar isn't too stiff, so it feels comfortable but still looks neat.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC07_SHIRT_COLLAR.wav"
+    },
+    {
+      "responseCode": "BC_SPC08_SHIRT_FIT",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It's fitted, but it isn't too tight.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC08_SHIRT_FIT.wav"
+    },
+    {
+      "responseCode": "BC_SPC09_SHIRT_WORK_USE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I could wear it to work with dress pants or peg slacks.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC09_SHIRT_WORK_USE.wav"
+    },
+    {
+      "responseCode": "BC_SPC10_SHIRT_CASUAL_USE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I could wear it with jeans and sneakers for a more casual look.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC10_SHIRT_CASUAL_USE.wav"
+    },
+    {
+      "responseCode": "BC_SPC11_SHIRT_COLOR_MATCHING",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "The light blue color goes well with a lot of things, including dark jeans or white pants.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC11_SHIRT_COLOR_MATCHING.wav"
+    },
+    {
+      "responseCode": "BC_SPC12_SHIRT_SEASON_USE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I could wear it in different seasons, so it's useful throughout the year.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC12_SHIRT_SEASON_USE.wav"
+    },
+    {
+      "responseCode": "BC_SPC13_SHIRT_LAYERING",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I could wear it under a sweater or blazer in winter, or wear it by itself in spring or fall.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC13_SHIRT_LAYERING.wav"
+    },
+    {
+      "responseCode": "BC_SPC14_SHIRT_PRACTICALITY",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It feels really practical because it's easy to style and works for many different occasions.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC14_SHIRT_PRACTICALITY.wav"
+    },
+    {
+      "responseCode": "BC_SPC15_SHIRT_FORMAL_CASUAL",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I could wear it for both work or dressier occasions and more casual situations.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC15_SHIRT_FORMAL_CASUAL.wav"
+    },
+    {
+      "responseCode": "BC_SPC16_SHIRT_POLISHED",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It's the kind of shirt that can make me look neat and well dressed without much effort.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC16_SHIRT_POLISHED.wav"
+    },
+    {
+      "responseCode": "BC_SPC18_SHIRT_EXISTING",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I already have a few button-up shirts, but none are quite like this one in color or style.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC18_SHIRT_EXISTING.wav"
+    },
+    {
+      "responseCode": "BC_SPC19_SHIRT_WARDROBE_GOAL",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I've been trying to add more classic, simple, and easy-to-match clothes.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC19_SHIRT_WARDROBE_GOAL.wav"
+    },
+    {
+      "responseCode": "BC_SPC17_SHIRT_TIMELESS",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "It has a classic style, so I don't think it would go out of date.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC17_SHIRT_TIMELESS.wav"
+    },
+    {
+      "responseCode": "BC_SPC20_SHIRT_REPLACEABILITY",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I think I could find another similar button-up later, even though finding the perfect one isn't always easy.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC20_SHIRT_REPLACEABILITY.wav"
+    },
+    {
+      "responseCode": "BC_SPC21_SHIRT_INVESTMENT",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_FIRST",
+      "text": "I see it as a long-term investment because it's classic and should stay in style for years.",
+      "target": "first_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC21_SHIRT_INVESTMENT.wav"
+    },
+    {
+      "responseCode": "BC_SPC22_HOODIE_TYPE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "The second one is a hoodie.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC22_HOODIE_TYPE.wav"
+    },
+    {
+      "responseCode": "BC_SPC23_HOODIE_COLOR",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "It's a deep forest green.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC23_HOODIE_COLOR.wav"
+    },
+    {
+      "responseCode": "BC_SPC24_HOODIE_MATERIAL",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "It's made from a mix of cotton and fleece.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC24_HOODIE_MATERIAL.wav"
+    },
+    {
+      "responseCode": "BC_SPC25_HOODIE_MATERIAL_FEEL",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "The material is very soft and a little flexible, and it isn't too thick.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC25_HOODIE_MATERIAL_FEEL.wav"
+    },
+    {
+      "responseCode": "BC_SPC26_HOODIE_LINING",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "The inside has a thick, soft lining that feels like a warm blanket.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC26_HOODIE_LINING.wav"
+    },
+    {
+      "responseCode": "BC_SPC27_HOODIE_FIT",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "It has a larger, relaxed fit, but it still looks good and doesn't look too loose.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC27_HOODIE_FIT.wav"
+    },
+    {
+      "responseCode": "BC_SPC28_HOODIE_SLEEVES",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "The sleeves are a little longer than normal.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC28_HOODIE_SLEEVES.wav"
+    },
+    {
+      "responseCode": "BC_SPC29_HOODIE_LOGO",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "There's a small, simple logo on the chest, and it isn't very noticeable.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC29_HOODIE_LOGO.wav"
+    },
+    {
+      "responseCode": "BC_SPC30_HOODIE_HOME_USE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "I could wear it when I'm relaxing at home or working from home.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC30_HOODIE_HOME_USE.wav"
+    },
+    {
+      "responseCode": "BC_SPC31_HOODIE_OUTDOOR_USE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "I could wear it outside with jeans or casual pants and still look put together.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC31_HOODIE_OUTDOOR_USE.wav"
+    },
+    {
+      "responseCode": "BC_SPC32_HOODIE_COLD_WEATHER",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "I'd probably wear it a lot during fall and winter or on other cold days.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC32_HOODIE_COLD_WEATHER.wav"
+    },
+    {
+      "responseCode": "BC_SPC33_HOODIE_COMFORT",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "It's really soft, warm, and comfortable, which is one of the things I like most about it.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC33_HOODIE_COMFORT.wav"
+    },
+    {
+      "responseCode": "BC_SPC34_HOODIE_ELEVATED_STYLE",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "It's casual, but the fit and material make it feel a little nicer than a normal hoodie.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC34_HOODIE_ELEVATED_STYLE.wav"
+    },
+    {
+      "responseCode": "BC_SPC35_HOODIE_EXISTING_COLORS",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "Most of the hoodies I already own are grey or black.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC35_HOODIE_EXISTING_COLORS.wav"
+    },
+    {
+      "responseCode": "BC_SPC36_HOODIE_UNIQUENESS",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "It feels more unique than my other casual clothes because of the green color and the larger, relaxed fit that still looks good.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC36_HOODIE_UNIQUENESS.wav"
+    },
+    {
+      "responseCode": "BC_SPC37_HOODIE_REPLACEABILITY",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "I haven't seen another hoodie with exactly the same color and fit, so it feels harder to replace.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC37_HOODIE_REPLACEABILITY.wav"
+    },
+    {
+      "responseCode": "BC_SPC38_HOODIE_REGRET",
+      "category": "specific",
+      "actionCode": "ACT_PRESENT_SECOND",
+      "text": "I think I'd regret leaving the hoodie behind because it feels like a rare find.",
+      "target": "second_top",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC38_HOODIE_REGRET.wav"
+    },
+    {
+      "responseCode": "BC_SPC39_SAME_PRICE",
+      "category": "specific",
+      "actionCode": "ACT_COMPARE",
+      "text": "They're both around the same price.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC39_SAME_PRICE.wav"
+    },
+    {
+      "responseCode": "BC_SPC40_ONLY_ONE",
+      "category": "specific",
+      "actionCode": "ACT_THINK",
+      "text": "I didn't plan on buying two tops, so I feel like I should choose just one.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC40_ONLY_ONE.wav"
+    },
+    {
+      "responseCode": "BC_SPC41_WHY_UNDECIDED",
+      "category": "specific",
+      "actionCode": "ACT_THINK",
+      "text": "The shirt is more practical and works in more situations, but the hoodie is more comfortable and feels more unique, so it's hard for me to choose.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC41_WHY_UNDECIDED.wav"
+    },
+    {
+      "responseCode": "BC_SPC42_WHICH_MORE_FORMAL",
+      "category": "specific",
+      "actionCode": "ACT_COMPARE",
+      "text": "The shirt is better for work or dressier situations, while the hoodie is much more casual.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC42_WHICH_MORE_FORMAL.wav"
+    },
+    {
+      "responseCode": "BC_SPC43_WHICH_MORE_COMFORTABLE",
+      "category": "specific",
+      "actionCode": "ACT_COMPARE",
+      "text": "The hoodie is definitely more comfortable.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC43_WHICH_MORE_COMFORTABLE.wav"
+    },
+    {
+      "responseCode": "BC_SPC44_WHICH_MORE_VERSATILE",
+      "category": "specific",
+      "actionCode": "ACT_COMPARE",
+      "text": "The shirt works in more situations because I could wear it for work, casual situations, and in different seasons.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC44_WHICH_MORE_VERSATILE.wav"
+    },
+    {
+      "responseCode": "BC_SPC45_WHICH_WEAR_MORE",
+      "category": "specific",
+      "actionCode": "ACT_COMPARE",
+      "text": "I'd probably wear the hoodie more in the near future because the weather is getting colder, but I could use the shirt all year.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC45_WHICH_WEAR_MORE.wav"
+    },
+    {
+      "responseCode": "BC_SPC46_WHICH_HARDER_REPLACE",
+      "category": "specific",
+      "actionCode": "ACT_COMPARE",
+      "text": "The hoodie feels harder to replace because I haven't seen another one with the same color and fit.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC46_WHICH_HARDER_REPLACE.wav"
+    },
+    {
+      "responseCode": "BC_SPC47_CURRENT_PREFERENCE",
+      "category": "specific",
+      "actionCode": "ACT_PREFERENCE",
+      "text": "I think I like the hoodie a little more right now because it feels more special.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC47_CURRENT_PREFERENCE.wav"
+    },
+    {
+      "responseCode": "BC_SPC48_REGRET_COMPARISON",
+      "category": "specific",
+      "actionCode": "ACT_PREFERENCE",
+      "text": "I think I'd regret not getting the hoodie more than not getting the shirt.",
+      "target": "both",
+      "expectedLocalAudioFile": "audio/specific/BC_SPC48_REGRET_COMPARISON.wav"
+    }
+  ]
+}

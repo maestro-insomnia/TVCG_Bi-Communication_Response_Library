@@ -1,0 +1,37 @@
+{
+  "protocolVersion": "6.3",
+  "actions": [
+    {
+      "actionCode": "ACT_PRESENT_FIRST",
+      "description": "Show or describe the first top."
+    },
+    {
+      "actionCode": "ACT_PRESENT_SECOND",
+      "description": "Show or describe the second top."
+    },
+    {
+      "actionCode": "ACT_COMPARE",
+      "description": "Compare the two options."
+    },
+    {
+      "actionCode": "ACT_THINK",
+      "description": "Show that the character is thinking or unsure."
+    },
+    {
+      "actionCode": "ACT_PREFERENCE",
+      "description": "Show the character's current preference."
+    },
+    {
+      "actionCode": "ACT_DECIDE",
+      "description": "Show the final choice."
+    },
+    {
+      "actionCode": "ACT_NEUTRAL",
+      "description": "Normal conversation behavior."
+    },
+    {
+      "actionCode": "ACT_CLARIFY",
+      "description": "Ask the participant to make the question clearer."
+    }
+  ]
+}
