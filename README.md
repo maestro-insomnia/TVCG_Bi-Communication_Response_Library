@@ -6,19 +6,18 @@ This repository provides the predefined response library, semantic-routing promp
 
 The resources are intended to support reproduction and reuse of the study's controlled conversational pipeline, in which participant speech is transcribed by ASR, semantically routed to a predefined response code, and resolved locally to a prerecorded virtual-character response and action.
 
-
 ## Purpose
 
 This repository focuses on the files needed to **reuse or implement** the predefined-response conversation system:
 
-- machine-readable response libraries;
-- copy-friendly plain-text response libraries;
-- the LLM semantic-routing prompt;
-- request/result JSON schemas;
-- API input/output examples;
-- Unity integration examples;
-- an optional Python reference implementation;
-- audio-file naming/mapping guidance.
+* machine-readable response libraries;
+* copy-friendly plain-text response libraries;
+* the LLM semantic-routing prompt;
+* request/result JSON schemas;
+* API input/output examples;
+* Unity integration examples;
+* an optional Python reference implementation;
+* audio-file naming/mapping guidance.
 
 The full experimental description, participant instructions, and detailed protocol explanation are provided separately in the paper's supplementary material and are intentionally not duplicated here.
 
@@ -109,6 +108,17 @@ prompts/route_result.schema.json
 
 `library/route_catalog.json` contains the logical route codes available to the router.
 
+## Model Compatibility
+
+The semantic-routing pipeline and Python reference implementation have been tested successfully with the following OpenAI models:
+
+* `gpt-4.1-2025-04-14`
+* `gpt-5.6-luna`
+
+Both models use the same routing prompt, request schema, result schema, and response library. Model-specific API parameters are handled by the Python reference implementation; in particular, reasoning-specific parameters are used only for models that support them.
+
+Other models may also be compatible with the routing protocol, but they have not been validated as part of this repository.
+
 ## API Examples
 
 Example request and result objects are provided in:
@@ -124,11 +134,11 @@ These examples are intended to make it easier to reproduce the JSON interface in
 
 The `unity/` folder provides reference C# classes for:
 
-- building routing requests;
-- parsing structured routing results;
-- maintaining conversation state;
-- resolving Broad-group Preferred/Alternative responses locally;
-- mapping logical routes to local response/action data.
+* building routing requests;
+* parsing structured routing results;
+* maintaining conversation state;
+* resolving Broad-group Preferred/Alternative responses locally;
+* mapping logical routes to local response/action data.
 
 These files are reference components rather than a complete Unity scene or project.
 
@@ -142,7 +152,7 @@ Before using it, edit:
 examples/python_router/.env
 ```
 
-and add your own local API key. Do not commit a real API key to a public repository.
+and add your own local API key. The model can also be selected in this file. Do not commit a real API key to a public repository.
 
 ## Audio Availability
 
